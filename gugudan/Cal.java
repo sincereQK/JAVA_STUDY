@@ -21,19 +21,19 @@ public class Cal {
 		
 		while (!"=".equals(math)) {
 			if ("+".equals(math)) {
-				System.out.println("���: "+(number1+number2));
+				System.out.println("°á°ú: "+(number1+number2));
 				//break;
 			} else if ("-".equals(math)) {
-				System.out.println("���: "+(number1-number2));
+				System.out.println("°á°ú: "+(number1-number2));
 				//break;
 			} else if ("*".equals(math)) {
-				System.out.println("���: "+(number1*number2));
+				System.out.println("°á°ú: "+(number1*number2));
 				//break;
 			} else if ("/".equals(math)) {
-				System.out.println("���: "+(number1/number2));
+				System.out.println("°á°ú: "+(number1/number2));
 				//break;
 			} else {
-				System.out.println("���: "+(number1%number2));
+				System.out.println("°á°ú: "+(number1%number2));
 				//break;
 			}
 			number1 = scan.nextInt();
