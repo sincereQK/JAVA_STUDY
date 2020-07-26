@@ -16,7 +16,7 @@ public class Calc {
 		Div div = new Div();
 
 		Scanner sc = new Scanner(System.in);
-		System.out.print("µÎ Á¤¼ö¿Í ¿¬»êÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À>>");
+		System.out.print("ë‘ ì •ìˆ˜ì™€ ì—°ì‚°ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤>>");
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		String operator = sc.next();
@@ -36,13 +36,13 @@ public class Calc {
 				System.out.print(div.calculate()+"\n");
 			}
 			
-			System.out.print("µÎ Á¤¼ö¿Í ¿¬»êÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À>>");
+			System.out.print("ë‘ ì •ìˆ˜ì™€ ì—°ì‚°ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤>>");
 			a = sc.nextInt();
 			b = sc.nextInt();
 			operator = sc.next();
 		}
 		
-		System.out.print("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
+		System.out.print("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 		
 		sc.close();
 	}
