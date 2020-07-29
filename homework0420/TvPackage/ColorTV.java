@@ -8,6 +8,6 @@ class ColorTV extends TV {
 	}
 	
 	public void printProperty() {
-		System.out.print(getSize()+"��ġ "+resolution+"�÷�");
+		System.out.print(getSize()+"ÀÎÄ¡ "+resolution+"ÄÃ·¯");
 	}
 }
