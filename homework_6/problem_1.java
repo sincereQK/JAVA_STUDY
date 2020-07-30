@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 public class problem_1 {
 	public static void main(String[] args) {
 		
-		String aaa = "³ÃÀå°í,¼¼Å¹±â,¿¡¾îÄÁ,TV,¿Àµğ¿À";
+		String aaa = "ëƒ‰ì¥ê³ ,ì„¸íƒê¸°,ì—ì–´ì»¨,TV,ì˜¤ë””ì˜¤";
 		StringTokenizer aa = new StringTokenizer(aaa,",");
 		
 		System.out.println(aa.countTokens());
