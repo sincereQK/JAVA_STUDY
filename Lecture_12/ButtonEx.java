@@ -1,11 +1,11 @@
-//¿¹Á¦ 11-3 : JButtonÀ» ÀÌ¿ëÇÑ ¹öÆ° ¸¸µé±â
+//ì˜ˆì œ 11-3 : JButtonì„ ì´ìš©í•œ ë²„íŠ¼ ë§Œë“¤ê¸°
 
 import javax.swing.*; 
 import java.awt.*;
 
 public class ButtonEx extends JFrame{ 
 	public ButtonEx() { 
-		setTitle("ÀÌ¹ÌÁö ¹öÆ° ¿¹Á¦"); 
+		setTitle("ì´ë¯¸ì§€ ë²„íŠ¼ ì˜ˆì œ"); 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
 		Container c = getContentPane(); 
 		c.setLayout(new FlowLayout());
